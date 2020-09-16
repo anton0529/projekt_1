@@ -18,3 +18,20 @@ personalMovieBD.movies[a] = b;
 personalMovieBD.movies[c] = d;
 
 console.log(personalMovieBD);
+
+const num = 510;
+
+switch(num) {
+    case 49:
+        console.log('wrong');
+        break;
+    case 100:
+        console.log('wrong');
+        break;
+    case 50:
+        console.log('right');
+        break;
+    default:
+        console.log('wtf');
+        break;
+}
